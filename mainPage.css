@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#profile {
+    display: inline;
+}
+#header {
+    background: rgb(73, 26, 5);
+    width: 100%;
+    padding-left: 100px;
+    margin-bottom: -100px;
+}
+body,html {
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #202020;
+    height: 1000px;
+}
+#surajStark {
+    width: 15%;
+    height: 15%;
+    bottom: 20px;
+}
+#header h1 {
+    font-size: 200px;
+    color: white;
+}
+#bol {
+    text-align: center;
+    display: inline;
+}
+#middle {
+    
+    width: 100%;
+    margin-top: 100px;
+}
+#middle h1 {
+    font-size: 70px;
+    color: white;
+}
+#title {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+#poster1 {
+    height: 10%;
+    width: 10%;
+    padding-left: 50px;
+    padding-top: 100px;
+    margin-top: -100px;
+}
+.container {
+    position: relative;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+  
+.container:hover .overlay {
+    opacity: 1;
+}
+  
+.overlayFade {
+    height: 50px;
+    width: 50px;
+    top: 70px;
+    left: 125px;
+}
